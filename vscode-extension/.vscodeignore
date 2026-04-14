@@ -1,4 +1,18 @@
+# Build/dev metadata
 .gitignore
+.gitattributes
+.github/**
 .gradle/**
 build/**
 *.gradle
+.vscode/**
+.project
+
+# Sources and local tooling config
+src/extension.ts
+src/tsconfig.json
+tslint.json
+package-lock.json
+
+# Dependencies are bundled into out/extension.js
+node_modules/**
